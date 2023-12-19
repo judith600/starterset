@@ -1,0 +1,20 @@
+{
+  "name": "starterset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Judith Hurzlmeier",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "eslint": "^8.56.0",
+    "mocha": "^10.2.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
