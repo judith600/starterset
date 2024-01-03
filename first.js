@@ -18,20 +18,14 @@ let bestCollegueEver;
 // but maybe your favorite changes? #
 // bestCollegueEver = ;
 
-// let's greet all of our colleagues
-const allColleagues = ["Patrik", "Suresh", "Robin", "Daniel", "Corinna", "Tito", "Nico"]
-sayHello(allColleagues)
+// let's greet all of our colleagues - add missing colleagues and greet them
+const allColleagues = ["Patrik", "Suresh", "Robin"]
 
 // only greet the third colleague
 
 // greet colleagues in alphabetical order
-sayHello(allColleagues.sort())
+
 
 // greet only colleagues which have an 'i' in their name
-for (let name of allColleagues) {
-    if (name.includes('i')) {
-        sayHello(name)
-    }
-}
 
 // greet names which have more than 5 characters
