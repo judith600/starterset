@@ -1,13 +1,15 @@
 function sayHello(name) {
-    console.log(`Hi dear ${name}`)
+    console.log(`Hello my dearest dear ${name}`)
 }
 
 sayHello('Weihnachtsmann')
 // say hello to a friend
 
 
+
 // initialize the best name ever =  give it the initial value and greet them
-// const bestNameEver = ;
+const bestNameEver = "Judith";
+sayHello(bestNameEver)
 
 
 let bestCollegueEver;
